@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" unit="millimeter" xml:lang="en-US" xmlns:m="http://schemas.microsoft.com/3dmanufacturing/material/2015/02">
+	<resources>
+		<basematerials id="1">
+			<base name="Material" displaycolor="#3F48CCFF" />
+		</basematerials>
+		<m:texture2d id="2" path="/3D/Textures/466.png" contenttype="image/png" />
+		<m:texture2dgroup id="6" texid="2">
+			<m:tex2coord u="0.155044" v="0.597418" />
+			<m:tex2coord u="0.462668" v="0.149756" />
+			<m:tex2coord u="0.000228316" v="0.27108" />
+			<m:tex2coord u="0.321717" v="0.685378" />
+			<m:tex2coord u="0.825104" v="0.651007" />
+			<m:tex2coord u="0.595018" v="0.999938" />
+			<m:tex2coord u="0.979493" v="0.959201" />
+			<m:tex2coord u="0.586454" v="0.54798" />
+			<m:tex2coord u="0.00991175" v="0.999839" />
+			<m:tex2coord u="0.43081" v="0.927632" />
+			<m:tex2coord u="0.999753" v="0.401956" />
+			<m:tex2coord u="0.665581" v="0.303307" />
+			<m:tex2coord u="0.632632" v="0.392835" />
+		</m:texture2dgroup>
+		<object id="3" type="model">
+			<mesh>
+				<vertices>
+					<vertex x="151.083" y="104.618" z="-104.618" />
+					<vertex x="-151.083" y="-104.618" z="-104.618" />
+					<vertex x="-151.083" y="104.618" z="-104.618" />
+					<vertex x="151.083" y="-104.618" z="-104.618" />
+					<vertex x="-151.083" y="104.618" z="104.618" />
+					<vertex x="151.083" y="-104.618" z="104.618" />
+					<vertex x="151.083" y="104.618" z="104.618" />
+					<vertex x="-151.083" y="-104.618" z="104.618" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" pid="6" p1="0" p2="1" p3="2" />
+					<triangle v1="0" v2="3" v3="1" pid="6" p1="0" p2="3" p3="1" />
+					<triangle v1="4" v2="5" v3="6" pid="6" p1="4" p2="5" p3="6" />
+					<triangle v1="4" v2="7" v3="5" pid="6" p1="4" p2="7" p3="5" />
+					<triangle v1="6" v2="3" v3="0" pid="6" p1="8" p2="3" p3="0" />
+					<triangle v1="6" v2="5" v3="3" pid="6" p1="8" p2="9" p3="3" />
+					<triangle v1="2" v2="7" v3="4" pid="6" p1="10" p2="7" p3="4" />
+					<triangle v1="2" v2="1" v3="7" pid="6" p1="10" p2="11" p3="7" />
+					<triangle v1="2" v2="6" v3="0" pid="6" p1="2" p2="8" p3="0" />
+					<triangle v1="2" v2="4" v3="6" pid="6" p1="10" p2="4" p3="6" />
+					<triangle v1="7" v2="3" v3="5" pid="6" p1="12" p2="3" p3="9" />
+					<triangle v1="7" v2="1" v3="3" pid="6" p1="12" p2="1" p3="3" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="4" type="model">
+			<mesh>
+				<vertices>
+					<vertex x="116.360" y="54.263" z="-54.263" />
+					<vertex x="-116.360" y="-54.263" z="-54.263" />
+					<vertex x="-116.360" y="54.263" z="-54.263" />
+					<vertex x="116.360" y="-54.263" z="-54.263" />
+					<vertex x="-116.360" y="54.263" z="54.263" />
+					<vertex x="116.360" y="-54.263" z="54.263" />
+					<vertex x="116.360" y="54.263" z="54.263" />
+					<vertex x="-116.360" y="-54.263" z="54.263" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" pid="1" p1="0" />
+					<triangle v1="0" v2="3" v3="1" pid="1" p1="0" />
+					<triangle v1="4" v2="5" v3="6" pid="1" p1="0" />
+					<triangle v1="4" v2="7" v3="5" pid="1" p1="0" />
+					<triangle v1="6" v2="3" v3="0" pid="1" p1="0" />
+					<triangle v1="6" v2="5" v3="3" pid="1" p1="0" />
+					<triangle v1="2" v2="7" v3="4" pid="1" p1="0" />
+					<triangle v1="2" v2="1" v3="7" pid="1" p1="0" />
+					<triangle v1="2" v2="6" v3="0" pid="1" p1="0" />
+					<triangle v1="2" v2="4" v3="6" pid="1" p1="0" />
+					<triangle v1="7" v2="3" v3="5" pid="1" p1="0" />
+					<triangle v1="7" v2="1" v3="3" pid="1" p1="0" />
+				</triangles>
+			</mesh>
+		</object>
+	</resources>
+	<build>
+		<item objectid="3" transform="-0.000983979 3.43978e-05 -0.000174934 -0.000173436 4.2572e-05 0.000983925 4.12921e-05 0.000998501 -3.59242e-05 -0.00148551 -0.166989 -0.00232974" />
+		<item objectid="4" transform="-0.000971196 -4.62637e-05 0.000233749 0.000187695 -0.000752867 0.000630842 0.000146797 0.000656545 0.000739865 0.10914 -0.210817 0.137609" />
+	</build>
+</model>
