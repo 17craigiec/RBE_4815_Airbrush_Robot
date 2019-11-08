@@ -8,7 +8,7 @@ image = imread('Mercator_projection_SW.jpg');
 %imshow(image);
 
 %POINTS PER INCH
-PPI = 2;
+PPI = 1;
 %RADIUS IN INCHES
 r = 10;
 
@@ -62,9 +62,7 @@ function printColor(dataStruct)
         y = [0; dataStruct(i,2)];
         z = [0; dataStruct(i,3)];
         r = dataStruct(i,4)/255;
-        g = dataStruct(i,5)/255;
-        b = dataStruct(i,6)/255;
-        plot3(x, y, z, '*', 'Color', [r g b] );
+        plot3(x, y, z, 'Color', [0.1 0.5 0.5] );
         hold on;
     end
     axis equal; grid on;
