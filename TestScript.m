@@ -1,4 +1,4 @@
-SHAPE_NAME = 'SimplePrism';
+SHAPE_NAME = 'StarLine';
 pathName = append('Geometric Shapes/', SHAPE_NAME, '/3D');
 
 %PATH STATEMENTS
@@ -6,11 +6,14 @@ addpath('Functions', pathName);
 
 %NOTE REMEBER TO CHANGE FILE TYPE TO .xml
 modelXMLfile = '3dmodel.xml';
-textureFile = append('Geometric Shapes/', SHAPE_NAME, obj.Children(2).Children(6).Attributes(3).Value);
-texture = fullfile(textureFile)
 
 %modelXMLfile = '3dmodel.model';
 obj = parseXML(modelXMLfile);
+
+textureFile = append('Geometric Shapes/', SHAPE_NAME, obj.Children(2).Children(6).Attributes(3).Value );
+% texture = fullfile(textureFile)
+
+
 
 % u = obj.Children(2).Children(6).Children(2).Attributes(1).Value;
 % v = obj.Children(2).Children(6).Children(2).Attributes(2).Value;

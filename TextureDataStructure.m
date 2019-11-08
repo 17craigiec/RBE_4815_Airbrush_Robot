@@ -4,11 +4,11 @@ clc
 close all
 
 addpath('Textures');
-image = imread('Mercator_projection_SW.jpg');
+image = imread('Capture.png');
 %imshow(image);
 
 %POINTS PER INCH
-PPI = 2;
+PPI = 1;
 %RADIUS IN INCHES
 r = 10;
 
@@ -41,8 +41,8 @@ for n = 1:numPtsVert
     
 end
 
-%printPath(dataStruct);
-printColor(dataStruct);
+printPath(dataStruct);
+%printColor(dataStruct);
 
 
 %HELPER FUNCTIONS
